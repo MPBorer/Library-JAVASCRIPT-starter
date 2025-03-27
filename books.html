@@ -18,9 +18,9 @@
       <div class="nav__container">
         <img class="logo" src="assets/Library.svg" alt="">
         <ul class="nav__links">
-          <li><a href="#" class="nav__link">Home</a></li>
-          <li><a href="#" class="nav__link">Contact</a></li>
-          <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
+          <li><a href="index.html" target="_blank" class="nav__link">Home</a></li>
+          <li><a href="#" class="nav__link no-cursor">Contact</a></li>
+          <li><a href="index.html" target="_blank" class="nav__link nav__link--primary">Books</a></li>
         </ul>
         <button class="btn__menu" onclick="openMenu()">
           <i class="fas fa-bars"></i>
@@ -60,7 +60,10 @@
               <option value="RATING">Book Rating</option>
             </select>
           </div>
-         <div class="books"></div>
+         <div class="books">
+          <i class="fa-solid fa-spinner books__loading--spinner"></i>
+
+         </div>
         </div>
       </div>
     </section>
